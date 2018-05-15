@@ -1,0 +1,118 @@
+
+.top-bar {
+    background: #2362b0;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    .top-bar-title {
+        margin: auto 20px;
+        line-height: 60px;
+    }
+    .call-icon {
+        margin: auto 0px;
+        line-height: 60px;
+    }
+}
+
+.top-banner-wrap {
+    height: 400px;
+    background-color: #2362b0;    
+    .top-banner {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: left top;
+        height: 400px;
+        overflow: hidden;
+    }
+}
+
+.bottom-banner {
+    background-color: #2362b0;
+    color: white;
+    padding: 20px;
+    .banner-content {
+        padding: 0px 15px 0px 5px;
+    }
+}
+
+.info-wrap {
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.info-top {
+    font-size: 20px;
+    padding: 20px 0 0 20px;
+}
+
+.column-content {
+    float: left;
+}
+
+.map-wrap {
+    clear: both;
+    border-top: 2px solid black;
+}
+
+.map-view {
+    float: left;
+    padding: 40px;
+}
+
+.street-view {
+    height: 339px;
+    padding: 40px;
+}
+
+@media (max-width: 600px) {
+    .top-banner-wrap {
+        height: 250px;
+        overflow: hidden;
+        .top-banner {
+            height: 2500px;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .top-bar {
+        font-size: 16px;
+        .call-icon svg {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .top-banner-wrap {
+        height: 500px;
+        .top-banner {
+            width: 1000px;
+            height: 500px;
+        }
+    }
+}
+
+@media (max-width: 1375px) {
+    .map-view {
+        padding: 10px 0px;
+    }
+    .street-view {
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 850px) {
+    .map-view {
+        padding: 10px 100px 10px 10px;
+    }
+    .street-view {
+        padding: 10px;
+        width: 379px;
+        height: auto;
+    }
+}

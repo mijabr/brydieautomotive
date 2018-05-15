@@ -1,20 +1,50 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class='top-bar'>
+  <span class='top-bar-title'>BRYDIE AUTOMOTIVE</span>
+  <span class='call-icon'>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+  </svg>
+  </span>
+  <span>9487 7346</span>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
+<div class='top-banner-wrap'>
+  <div class='top-banner' [ngStyle]="{ 'background-image': 'url(assets/front_view_1200.jpg)'}">
+  </div>
+</div>
+<div class='bottom-banner'>
+  <span class='banner-content'>4 Romsey St, Waitara, NSW, 2077</span>
+  <span class='banner-content'>Open 8:00am - 5:00pm</span>
+</div>
+<div class='info-wrap'>
+  <span class='column-content'>
+    <div class='info'>
+      <div class='info-top'>Specialising in</div>
+      <ul>
+        <li>Log Book Services</li>
+        <li>eSafety Rego Inspections</li>
+        <li>Blueslip & LPG Rego</li>
+        <li>Brake & Clutch Maintenance</li>
+        <li>Tyre & Wheel Alignment</li>
+        <li>Airconditioning</li>
+      </ul>
+    </div>
+  </span>
+  <span class='column-content'>
+    <div class='info'>
+      <div class='info-top'>We service all makes and models including</div>
+      <ul>
+        <li>BMW</li>
+        <li>Volvo</li>
+        <li>Lexus</li>
+        <li>Jeep</li>
+        <li>Land Rover</li>
+        <li>Kia</li>
+      </ul>
+    </div>
+  </span>
+</div>
+<div class='map-wrap'>
+  <img src='assets/map.png' class='map-view'>
+  <img src='assets/front_wide.png' class='street-view'>
+</div>
